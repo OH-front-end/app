@@ -6,6 +6,7 @@ import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import './App.css';
 
 function App() {
   return (
