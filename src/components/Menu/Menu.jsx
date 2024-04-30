@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom';
+import styles from './Menu.module.css';
 
 const Menu = () => {
   return (
     <>
-      <nav>
+      <nav className={styles.nav}>
         <NavLink to="." end>
           Головна
         </NavLink>

@@ -5,6 +5,7 @@ import Catalog from './components/Catalog/Catalog';
 import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
+import Header from './components/Header/Header';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="app" element={<MainLayout />}>
+            <Route path="header" element={<Header />} />
             <Route index element={<Home />} />
             <Route path="catalog" element={<Catalog />} />
             <Route path="about" element={<About />} />
