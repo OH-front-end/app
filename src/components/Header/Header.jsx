@@ -1,12 +1,9 @@
 import styles from './Header.module.css';
-import imgLogo from '../../assets/2048x60.avif';
 
-const Header = () => {
+const Header = ({ children }) => {
   return (
     <>
-      <div className={styles.header}>
-        <img src={imgLogo} alt="" />
-      </div>
+      <div className={styles.header}>{children}</div>
     </>
   );
 };
