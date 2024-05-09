@@ -14,10 +14,11 @@ const MainLayout = () => {
       </Link>
       <Header>
         <nav className={styles.navheader}>
-          <Link>Акції</Link>
-          <Link>Клієнтам</Link>
-          <Link>Новини</Link>
-          <Link>Служба підтримки</Link>
+          <Link to="actions">Акції</Link>
+          <Link to="forclients">Клієнтам</Link>
+          <Link to="servises">Послуги</Link>
+          <Link to="news">Новини</Link>
+          <Link to="support">Служба підтримки</Link>
         </nav>
       </Header>
       <Menu>

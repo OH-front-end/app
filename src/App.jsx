@@ -6,6 +6,11 @@ import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
+import Actions from './components/Actions/Actions';
+import ForClients from './components/ForClients/ForClients';
+import Servises from './components/Servises/Servises';
+import News from './components/News/News';
+import Support from './components/Support/Support';
 import './App.css';
 
 function App() {
@@ -19,6 +24,11 @@ function App() {
             <Route path="catalog" element={<Catalog />} />
             <Route path="about" element={<About />} />
             <Route path="contacts" element={<Contacts />} />
+            <Route path="actions" element={<Actions />} />
+            <Route path="forclients" element={<ForClients />} />
+            <Route path="servises" element={<Servises />} />
+            <Route path="news" element={<News />} />
+            <Route path="support" element={<Support />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
