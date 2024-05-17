@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayout from './components/layouts/MainLayout';
 import Home from './components/Home/Home';
 import Catalog from './components/Catalog/Catalog';
-import Contacts from './components/Contacts/Contacts';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Header from './components/Header/Header';
@@ -23,7 +22,6 @@ function App() {
             <Route index element={<Home />} />
             <Route path="catalog" element={<Catalog />} />
             <Route path="about" element={<About />} />
-            <Route path="contacts" element={<Contacts />} />
             <Route path="actions" element={<Actions />} />
             <Route path="forclients" element={<ForClients />} />
             <Route path="servises" element={<Servises />} />

@@ -1,19 +1,19 @@
 .support_container {
-	background: linear-gradient(to right, orange, lightgreen, orange);
-	min-height: 100vh;
 }
 
 .support_header {
 	display: flex;
 	justify-content: center;
 	gap: 100px;
+	background: linear-gradient(to right, orange, lightgreen, orange);
+	min-height: 100vh;
 }
-.support_img {
+.support_header_img {
 	margin-top: 30px;
 	width: 50vw;
 	height: 500px;
 }
-.support_title {
+.support_header_title {
 	margin-top: 150px;
 	font-family:
 		system-ui,
@@ -34,11 +34,29 @@
 	color: white;
 	letter-spacing: 3px;
 }
-.support_caption {
+.support_header_caption {
 	margin-top: 20px;
 	padding: 20px 40px;
 	color: black;
 	background-color: rgb(249, 247, 244);
 	display: inline-block;
 	border-radius: 30px;
+}
+.support_description {
+	max-width: 800px;
+	margin: auto;
+}
+.support_description_title {
+	color: rgb(224, 130, 36);
+	margin-bottom: 2rem;
+}
+.support_description_subtitle {
+	font-size: 2.2rem;
+	margin-bottom: 2rem;
+	letter-spacing: 3px;
+}
+.support_description_item {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+	color: rgba(0, 0, 0, 0.54);
 }

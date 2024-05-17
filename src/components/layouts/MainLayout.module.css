@@ -1,15 +1,37 @@
-.navmenu {
+.menu_nav {
 	background-color: rgb(241, 239, 241);
 	min-height: 60px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	gap: 40px;
 }
-.navheader {
+.header_menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.header_apple_logo {
+	width: 50px;
+	height: 60px;
+	position: absolute;
+	left: 110px;
+}
+
+.header_nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 150px;
+	gap: 50px;
 	min-height: 80px;
+}
+.catalog_link {
+	padding: 0 0 0 100px;
+	font-size: 25px;
+}
+
+.other_link {
+	padding: 0 40px 0 0;
+	font-size: 20px;
+	display: flex;
+	gap: 30px;
 }
